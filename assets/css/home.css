@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f3f4;
+}
+body #top-side {
+  width: 100%;
+  height: 44px;
+  background-color: black;
+}
+body #top-side .welcome {
+  border-right: 1px solid white;
+  height: 44px;
+  width: 178px;
+}
+body #top-side .welcome span {
+  line-height: 40px;
+  vertical-align: middle;
+  color: white;
+}
+body #top-side .language {
+  border-right: 1px solid white;
+}
+body #top-side .language .button1 {
+  border-radius: 0px;
+  background-color: black;
+  border: 0px;
+  position: relative;
+  top: 3px;
+}
+body #top-side .country {
+  border-right: 1px solid white;
+}
+body #top-side .country .button2 {
+  border-radius: 0px;
+  background-color: black;
+  border: 0px;
+  position: relative;
+  top: 3px;
+}
+body #top-side .country ul img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: relative;
+  left: 10px;
+}
+body #top-side .country ul li {
+  margin: 6px;
+}
+body #top-side .country .usa-flex {
+  display: flex;
+}
+body #top-side .country .nzd-flex {
+  display: flex;
+}
+body #top-side .country .gmd-flex {
+  display: flex;
+}
+body #top-side .country .ilr-flex {
+  display: flex;
+}
+body #top-side .country .eur-flex {
+  display: flex;
+}
+body #top-side .country .inr-flex {
+  display: flex;
+}
+body .basket,
+body .heart {
+  position: relative;
+  width: 46px;
+  height: 44px;
+  border-right: 1px solid white;
+}
+body .basket i,
+body .heart i {
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+body .profile {
+  border-right: 1px solid white;
+}
+body .profile .btn-secondary {
+  background-color: black;
+  border-color: black;
+}
+body .profile img {
+  width: 25px;
+  height: 25px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+body .circles {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: rgb(255, 85, 0);
+  position: absolute;
+  top: 8px;
+  right: 5px;
+}
+body .circles sup {
+  margin-left: 3px;
+  color: white;
+  font-weight: 500;
+  top: 0.5em;
+}
+body .dropdown-menu .profile-i {
+  display: flex;
+}
+body .dropdown-menu .account-i {
+  display: flex;
+}
+body .dropdown-menu .message-i {
+  display: flex;
+}
+body .dropdown-menu .logout-i {
+  display: flex;
+}
+body .dropdown-menu i {
+  position: relative;
+  left: 10px;
+  top: 8px;
+  font-size: 20px;
+}
+body .navbar-logo {
+  display: flex;
+  justify-content: space-between;
+}
+body .navbar-logo .input-search {
+  padding: 6px 0;
+  background-color: #fff;
+  border-radius: 4px 0 0 4px;
+  position: relative;
+}
+body .navbar-logo .input-search input {
+  border: none;
+  padding: 6px 20px;
+  width: 520px;
+}
+
+#navbar {
+  background-color: #283593;
+  margin-top: 95;
+}
+#navbar .container {
+  width: 100%;
+  height: 50px;
+  background-color: #283593;
+  margin-left: 23px;
+}
+#navbar nav {
+  position: absolute;
+  left: 0;
+  padding-left: 30px;
+}
+#navbar .btn {
+  display: flex;
+  margin-top: 3px;
+}
+#navbar .btn li {
+  list-style: none;
+  margin-right: 15px;
+}
+#navbar .btn li:hover .home {
+  height: 150px;
+  width: 200px;
+}
+#navbar .btn li:hover .home li {
+  text-align: left;
+}
+#navbar .btn li:hover .shop {
+  height: 170px;
+  width: 200px;
+}
+#navbar .btn li:hover .categories {
+  height: 270px;
+  width: 850px;
+}
+#navbar .btn li:hover .categories li {
+  text-align: left;
+}
+#navbar .btn li:hover a::before {
+  visibility: visible;
+  transform: scale(1, 1);
+}
+#navbar .btn li .home {
+  height: 130px;
+  width: 200px;
+}
+#navbar .btn li .shop {
+  height: 170px;
+  width: 200px;
+}
+#navbar .btn li .categories {
+  height: 270px;
+  width: 1000px;
+  display: flex;
+  gap: 100px;
+  text-align: left;
+}
+#navbar .btn li .submenu {
+  overflow: hidden;
+  position: absolute;
+  top: 57px;
+  background-color: whitesmoke;
+  height: 0;
+  line-height: 50px;
+  transition: height 0.3s ease-in-out;
+  transition-delay: 0.1s;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+#navbar .btn li .submenu > li {
+  display: block;
+  text-align: left;
+}
+#navbar .btn li .submenu a {
+  color: black;
+  margin-top: 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+#navbar .btn li .submenu a:hover {
+  text-decoration: none;
+}
+#navbar .btn li .submenu .product1 {
+  padding-top: 20px;
+}
+#navbar .btn li .submenu .product1 h5 {
+  color: rgb(49, 97, 231);
+  text-align: left;
+}
+#navbar .btn li .hov {
+  font-size: 18px;
+  color: white;
+  display: block;
+  padding: 0 15px 0 7px;
+  margin: 0 0 10px;
+  text-decoration: none;
+  position: relative;
+}
+#navbar .btn li .hov::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  bottom: -20px;
+  left: 0px;
+  background-color: rgb(255, 85, 0);
+  transition: all 0.3s ease-in-out;
+  transform: scale(0, 0);
+  visibility: hidden;
+}/*# sourceMappingURL=home.css.map */
