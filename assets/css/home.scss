@@ -15,7 +15,7 @@ body {
 
 
     .welcome {
-      border-right: 1px solid white;
+      border-right: 1px solid #464444;
       height: 44px;
       width: 178px;
 
@@ -27,7 +27,7 @@ body {
     }
 
     .language {
-      border-right: 1px solid white;
+      border-right: 1px solid #464444;
 
       .button1 {
         border-radius: 0px;
@@ -40,7 +40,7 @@ body {
     }
 
     .country {
-      border-right: 1px solid white;
+      border-right: 1px solid #464444;
 
       .button2 {
         border-radius: 0px;
@@ -94,7 +94,7 @@ body {
     position: relative;
     width: 46px;
     height: 44px;
-    border-right: 1px solid white;
+    border-right: 1px solid #464444;
 
     i {
       font-size: 20px;
@@ -106,7 +106,7 @@ body {
   }
 
   .profile {
-    border-right: 1px solid white;
+    border-right: 1px solid #464444;
 
     .btn-secondary {
       background-color: black;
@@ -328,8 +328,85 @@ body {
     }
   }
 
+}
+
+#slider-img {
+  padding-top: 85px;
+
+  .my-container {
+    width: 95%;
+    margin: auto;
 
 
+  }
 
-  
+  .swiper {
+    width: 100%;
+    height: 100%;
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      // background: #FFFFFF;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+
+
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        filter: brightness(0.5);
+        z-index: -1;
+
+      }
+
+      p {
+        color: white;
+        position: absolute;
+        top: 170px;
+        left: 39%;
+        font-size: 30px;
+      }
+
+      h1 {
+        color: white;
+        position: absolute;
+        top: 200px;
+        font-size: 90px;
+      }
+
+      a {
+        font-size: 14;
+        width: 100;
+        height: 40;
+        background-color: white;
+        padding: 10px 10px;
+        border-radius: 4px;
+        position: absolute;
+        bottom: 113px;
+        font-weight: 500;
+        text-decoration: none;
+        color: black;
+      }
+
+      button {
+        position: absolute;
+        bottom: 100px;
+        width: 100px;
+      }
+    }
+  }
 }

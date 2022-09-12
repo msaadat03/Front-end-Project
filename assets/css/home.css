@@ -13,7 +13,7 @@ body #top-side {
   background-color: black;
 }
 body #top-side .welcome {
-  border-right: 1px solid white;
+  border-right: 1px solid #464444;
   height: 44px;
   width: 178px;
 }
@@ -23,7 +23,7 @@ body #top-side .welcome span {
   color: white;
 }
 body #top-side .language {
-  border-right: 1px solid white;
+  border-right: 1px solid #464444;
 }
 body #top-side .language .button1 {
   border-radius: 0px;
@@ -33,7 +33,7 @@ body #top-side .language .button1 {
   top: 3px;
 }
 body #top-side .country {
-  border-right: 1px solid white;
+  border-right: 1px solid #464444;
 }
 body #top-side .country .button2 {
   border-radius: 0px;
@@ -75,7 +75,7 @@ body .heart {
   position: relative;
   width: 46px;
   height: 44px;
-  border-right: 1px solid white;
+  border-right: 1px solid #464444;
 }
 body .basket i,
 body .heart i {
@@ -86,7 +86,7 @@ body .heart i {
   left: 10px;
 }
 body .profile {
-  border-right: 1px solid white;
+  border-right: 1px solid #464444;
 }
 body .profile .btn-secondary {
   background-color: black;
@@ -259,4 +259,64 @@ body .navbar-logo .input-search input {
   transition: all 0.3s ease-in-out;
   transform: scale(0, 0);
   visibility: hidden;
+}
+
+#slider-img {
+  padding-top: 85px;
+}
+#slider-img .my-container {
+  width: 95%;
+  margin: auto;
+}
+#slider-img .swiper {
+  width: 100%;
+  height: 100%;
+}
+#slider-img .swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#slider-img .swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+#slider-img .swiper .swiper-slide p {
+  color: white;
+  position: absolute;
+  top: 170px;
+  left: 39%;
+  font-size: 30px;
+}
+#slider-img .swiper .swiper-slide h1 {
+  color: white;
+  position: absolute;
+  top: 200px;
+  font-size: 90px;
+}
+#slider-img .swiper .swiper-slide a {
+  font-size: 14;
+  width: 100;
+  height: 40;
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 113px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+#slider-img .swiper .swiper-slide button {
+  position: absolute;
+  bottom: 100px;
+  width: 100px;
 }/*# sourceMappingURL=home.css.map */
