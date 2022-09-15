@@ -1,0 +1,560 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#top-side {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(52, 105, 211);
+}
+#top-side .welcome {
+  height: 44px;
+  width: 178px;
+}
+#top-side .language .button1 {
+  border-radius: 0px;
+  background-color: rgb(52, 105, 211);
+  border: 0px;
+  position: relative;
+  top: 30px;
+}
+#top-side .country .button2 {
+  border-radius: 0px;
+  background-color: rgb(52, 105, 211);
+  border: 0px;
+  position: relative;
+  top: 30px;
+}
+#top-side .country ul img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: relative;
+  left: 10px;
+}
+#top-side .country ul li {
+  margin: 6px;
+}
+#top-side .country .usa-flex {
+  display: flex;
+}
+#top-side .country .nzd-flex {
+  display: flex;
+}
+#top-side .country .gmd-flex {
+  display: flex;
+}
+#top-side .country .ilr-flex {
+  display: flex;
+}
+#top-side .country .eur-flex {
+  display: flex;
+}
+#top-side .country .inr-flex {
+  display: flex;
+}
+#top-side .basket,
+#top-side .heart {
+  cursor: pointer;
+  position: relative;
+  top: 30px;
+  width: 46px;
+  height: 44px;
+  border: 1px solid rgb(255, 98, 0);
+  border-radius: 50%;
+  background-color: rgb(255, 98, 0);
+}
+#top-side .basket i,
+#top-side .heart i {
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 12px;
+  left: 11px;
+}
+#top-side .profile {
+  margin-top: 30px;
+}
+#top-side .profile img {
+  font-size: 26px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+#top-side .circles {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: rgb(255, 98, 0);
+  position: absolute;
+  top: -8px;
+  right: 5px;
+}
+#top-side .circles sup {
+  margin-left: 3px;
+  color: white;
+  font-weight: 500;
+  top: 0.5em;
+}
+#top-side .dropdown-menu .profile-i {
+  display: flex;
+}
+#top-side .dropdown-menu .account-i {
+  display: flex;
+}
+#top-side .dropdown-menu .message-i {
+  display: flex;
+}
+#top-side .dropdown-menu .logout-i {
+  display: flex;
+}
+#top-side .dropdown-menu i {
+  position: relative;
+  left: 10px;
+  top: 8px;
+  font-size: 20px;
+}
+#top-side .logo img {
+  padding-top: 30px;
+  padding-left: 150px;
+}
+
+#navbar {
+  background-color: #283593;
+}
+#navbar .container {
+  width: 100%;
+  height: 50px;
+  background-color: #283593;
+  margin-left: 40px;
+}
+#navbar nav {
+  position: absolute;
+  left: 329px;
+  padding-left: 30px;
+}
+#navbar .btn {
+  display: flex;
+  margin-top: 3px;
+}
+#navbar .btn li {
+  list-style: none;
+  margin-right: 15px;
+}
+#navbar .btn li:hover .home {
+  height: 150px;
+  width: 200px;
+}
+#navbar .btn li:hover .home li {
+  text-align: left;
+}
+#navbar .btn li:hover .shop {
+  height: 170px;
+  width: 200px;
+}
+#navbar .btn li:hover .categories {
+  position: absolute;
+  z-index: 2;
+  height: 270px;
+  width: 800px;
+}
+#navbar .btn li:hover .categories li {
+  text-align: left;
+}
+#navbar .btn li:hover a::before {
+  visibility: visible;
+  transform: scale(1, 1);
+}
+#navbar .btn li .home {
+  height: 130px;
+  width: 200px;
+}
+#navbar .btn li .shop {
+  height: 170px;
+  width: 200px;
+}
+#navbar .btn li .categories {
+  height: 270px;
+  width: 1000px;
+  display: flex;
+  gap: 100px;
+  text-align: left;
+  z-index: 2;
+}
+#navbar .btn li .submenu {
+  overflow: hidden;
+  position: absolute;
+  top: 57px;
+  background-color: whitesmoke;
+  height: 0;
+  line-height: 50px;
+  transition: height 0.3s ease-in-out;
+  transition-delay: 0.1s;
+  border-radius: 5px;
+  z-index: 2;
+}
+#navbar .btn li .submenu > li {
+  display: block;
+  text-align: left;
+}
+#navbar .btn li .submenu a {
+  color: black;
+  margin-top: 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+#navbar .btn li .submenu a:hover {
+  text-decoration: none;
+}
+#navbar .btn li .submenu .product1 {
+  padding-top: 20px;
+}
+#navbar .btn li .submenu .product1 h5 {
+  color: rgb(49, 97, 231);
+  text-align: left;
+}
+#navbar .btn li .hov {
+  font-size: 18px;
+  color: white;
+  display: block;
+  padding: 0 15px 0 7px;
+  margin: 0 0 10px;
+  text-decoration: none;
+  position: relative;
+}
+#navbar .btn li .hov::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  bottom: -20px;
+  left: 0px;
+  background-color: rgb(255, 98, 0);
+  transition: all 0.3s ease-in-out;
+  transform: scale(0, 0);
+  visibility: hidden;
+}
+#navbar .search-icon {
+  z-index: 3;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 20px;
+  right: 120px;
+  font-size: 30px;
+  color: white;
+  border: 1px solidrgb(255, 98, 0);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgb(255, 98, 0);
+}
+
+#sign-in {
+  width: 100%;
+  height: 590px;
+  /* LABEL ======================================= */
+  /* active state */
+  /* BOTTOM BARS ================================= */
+  /* active state */
+  /* HIGHLIGHTER ================================== */
+  /* active state */
+  /* ANIMATIONS ================ */
+}
+#sign-in img {
+  width: 500;
+  height: 655;
+  margin-top: 80;
+  margin-left: 160;
+}
+#sign-in .sign-in {
+  z-index: 1;
+  position: absolute;
+  margin-top: 120px;
+  left: 731px;
+  width: 540px;
+  height: 562px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+#sign-in .sign-in h2 {
+  font-size: 24px;
+  margin-top: 33px;
+  padding-left: 36px;
+}
+#sign-in .sign-in #box1 {
+  position: absolute;
+  margin-top: 180px;
+  left: -110px;
+}
+#sign-in .sign-in .label2 {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 243px;
+  left: 60px;
+  font-size: 24px;
+  font-weight: normal;
+}
+#sign-in .sign-in p {
+  position: absolute;
+  margin-top: 175px;
+  right: 20px;
+  cursor: pointer;
+  color: black;
+}
+#sign-in .sign-in span {
+  position: absolute;
+  margin-top: 443px;
+  left: 35px;
+}
+#sign-in .sign-in span a {
+  text-decoration: none;
+}
+#sign-in .sign-in button {
+  position: absolute;
+  margin-top: 384px;
+  color: white;
+  border: 1px solid rgb(255, 98, 0);
+  border-radius: 2px;
+  background-color: rgb(255, 98, 0);
+  width: 163px;
+  height: 50px;
+  left: 35px;
+}
+#sign-in .group {
+  position: absolute;
+}
+#sign-in input {
+  font-size: 18px;
+  padding: 11px 15px 10px 11px;
+  display: block;
+  width: 437px;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+#sign-in input:focus {
+  outline: none;
+}
+#sign-in label {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: lighter;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+#sign-in input:focus ~ label,
+#sign-in input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #000000;
+}
+#sign-in .bar {
+  position: relative;
+  display: block;
+  width: 300px;
+}
+#sign-in .bar:before,
+#sign-in .bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+#sign-in .bar:before {
+  left: 50%;
+}
+#sign-in .bar:after {
+  right: 50%;
+}
+#sign-in input:focus ~ .bar:before,
+#sign-in input:focus ~ .bar:after {
+  width: 50%;
+}
+#sign-in .highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+#sign-in input:focus ~ .highlight {
+  -webkit-animation: inputHighlighter 0.3s ease;
+  animation: inputHighlighter 0.3s ease;
+}
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: #5264AE;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+@keyframes inputHighlighter {
+  from {
+    background: #5264AE;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+#sign-in .email {
+  position: absolute;
+  margin-top: 158px;
+  left: 45;
+}
+#sign-in .password {
+  position: absolute;
+  margin-top: 231px;
+  left: 45;
+}
+#sign-in #box1 {
+  position: absolute;
+  margin-top: 180px;
+  left: -110px;
+}
+
+#socials {
+  width: 100%;
+  height: 450px;
+  background-color: rgb(0, 0, 0);
+  margin-top: 300;
+}
+#socials .company {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  left: 30px;
+}
+#socials .company h2 {
+  margin-top: 50px;
+  font-size: 18px;
+  color: white;
+}
+#socials .company p {
+  margin-top: 50px;
+  font-size: 16px;
+  color: white;
+}
+#socials .about {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  left: 440px;
+}
+#socials .about h2 {
+  margin-top: 50px;
+  font-size: 18px;
+  color: white;
+}
+#socials .about ul {
+  position: absolute;
+  left: -35px;
+  top: 115px;
+}
+#socials .about ul :hover {
+  color: red;
+}
+#socials .about li {
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+}
+#socials .session {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  left: 650px;
+}
+#socials .session h2 {
+  margin-top: 50px;
+  font-size: 18px;
+  color: white;
+}
+#socials .session ul {
+  position: absolute;
+  left: -35px;
+  top: 115px;
+}
+#socials .session ul :hover {
+  color: red;
+}
+#socials .session li {
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+}
+#socials .categories {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  left: 865px;
+}
+#socials .categories h2 {
+  margin-top: 50px;
+  font-size: 18px;
+  color: white;
+}
+#socials .categories ul {
+  position: absolute;
+  left: -35px;
+  top: 115px;
+}
+#socials .categories ul :hover {
+  color: red;
+}
+#socials .categories li {
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+}
+#socials .socials {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  left: 1060px;
+}
+#socials .socials h2 {
+  margin-top: 50px;
+  font-size: 18px;
+  color: white;
+}
+#socials .socials ul {
+  position: absolute;
+  left: -35px;
+  top: 115px;
+}
+#socials .socials ul :hover {
+  color: red;
+}
+#socials .socials li {
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+}
+#socials hr {
+  margin-top: 350px;
+  color: rgb(255, 255, 255);
+}
+#socials .rights {
+  color: white;
+}/*# sourceMappingURL=login.css.map */

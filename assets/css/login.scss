@@ -519,20 +519,6 @@
     }
 
 
-    .name {
-
-        position: absolute;
-        left: 45;
-        margin-top: 12px;
-
-    }
-
-    .last-name {
-        position: absolute;
-        margin-top: 85px;
-        left: 45;
-    }
-
     .email {
         position: absolute;
         margin-top: 158px;
@@ -545,11 +531,12 @@
         left: 45;
     }
 
-    .re-password {
+    #box1{
         position: absolute;
-        margin-top: 303px;
-        left: 45;
-    }
+        margin-top: 180px;
+        left: -110px;
+       }
+
 
 }
 
