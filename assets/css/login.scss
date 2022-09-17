@@ -81,16 +81,16 @@
         top: 30px;
         width: 46px;
         height: 44px;
-        border: 1px solid rgb(255, 98, 0);
+        border: 1px solid rgb(226, 135, 7);
         border-radius: 50%;
-        background-color: rgb(255, 98, 0);
+        background-color: rgb(226, 135, 7);
 
         i {
             font-size: 20px;
             color: white;
             position: absolute;
             top: 12px;
-            left: 11px;
+            left: 10px;
         }
     }
 
@@ -110,16 +110,15 @@
         width: 13px;
         height: 13px;
         border-radius: 50%;
-        background-color:rgb(255, 98, 0);
+        background-color: rgb(215, 82, 6);
         position: absolute;
-        top: -8px;
+        top: 8px;
         right: 5px;
 
         sup {
             margin-left: 3px;
             color: white;
             font-weight: 500;
-            top: 0.5em;
         }
 
     }
@@ -173,7 +172,7 @@
 
     nav {
         position: absolute;
-        left: 329px;
+        left: 100px;
         padding-left: 30px;
     }
 
@@ -292,7 +291,7 @@
                     height: 5px;
                     bottom: -20px;
                     left: 0px;
-                    background-color: rgb(255, 98, 0);
+                    background-color: orange;
                     transition: all 0.3s ease-in-out;
                     transform: scale(0, 0);
                     visibility: hidden;
@@ -310,11 +309,11 @@
         right: 120px;
         font-size: 30px;
         color: white;
-        border: 1px solidrgb(255, 98, 0);
+        border: 1px solid orange;
         width: 60px;
         height: 60px;
         border-radius: 50%;
-        background-color: rgb(255, 98, 0);
+        background-color: orange;
     }
 }
 
@@ -322,76 +321,79 @@
     width: 100%;
     height: 590px;
 
-    img {
-        width: 500;
-        height: 655;
-        margin-top: 80;
-        margin-left: 160;
+    .photo {
+        z-index: 1;
+        position: absolute;
+        margin-top: 50px;
+        left: 220px;
+        width: 400px;
+        height: 500px;
+        background-image: url(../images/millet.jpg);
+        background-size: cover;
     }
 
     .sign-in {
         z-index: 1;
         position: absolute;
-        margin-top: 120px;
-        left: 731px;
-        width: 540px;
-        height: 562px;
+        margin-top: 140px;
+        left: 580px;
+        width: 460px;
+        height: 360px;
         background-color: rgb(255, 255, 255);
         border: 1px solid transparent;
         border-radius: 4px;
-        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12), 0 1px 3px 0 rgba(0, 0, 0, .2);
+        box-shadow: 0px 0px 2px 2px rgb(189, 180, 180);
 
         h2 {
             font-size: 24px;
-            margin-top: 33px;
-            padding-left: 36px;
+            margin-top: 20px;
         }
 
-        #box1 {
-            position: absolute;
-            margin-top: 180px;
-            left: -110px;
+       #box1{
+        position: absolute;
+        margin-top: 180px;
+        left: -110px;
+       }
+
+       .label2{
+        cursor: pointer;
+        position: absolute;
+        margin-top: 243px;
+        left: 60px;
+        font-size: 24px;
+        font-weight: normal;
+       }
+
+       p{
+        position: absolute;
+        margin-top: 175px;
+        right: 20px;
+        cursor: pointer;
+        color: black;
+       }
+
+       span{
+        position: absolute;
+        margin-top: 270px;
+        left: 35px;
+
+        a{
+            text-decoration: none;
         }
+       }
 
-        .label2 {
-            cursor: pointer;
-            position: absolute;
-            margin-top: 243px;
-            left: 60px;
-            font-size: 24px;
-            font-weight: normal;
-        }
-
-        p {
-            position: absolute;
-            margin-top: 175px;
-            right: 20px;
-            cursor: pointer;
-            color: black;
-        }
-
-        span {
-            position: absolute;
-            margin-top: 443px;
-            left: 35px;
-
-            a {
-                text-decoration: none;
-            }
-        }
-
-        button {
-            position: absolute;
-            margin-top: 384px;
-            color: white;
-            border: 1px solid rgb(255, 98, 0);
-            border-radius: 2px;
-            background-color: rgb(255, 98, 0);
-            width: 163px;
-            height: 50px;
-            left: 35px;
-        }
-
+       button{
+        position: absolute;
+        margin-top: 210px;
+        color: white;
+        border: 1px solid orange;
+        border-radius: 6px;
+        background-color: orange;
+        width: 140px;
+        height: 50px;
+        left: 35px;
+       }
+        
     }
 
     .group {
@@ -400,9 +402,9 @@
 
     input {
         font-size: 18px;
-        padding: 11px 15px 10px 11px;
+        padding: 10px 10px 10px 5px;
         display: block;
-        width: 437px;
+        width: 300px;
         border: none;
         border-bottom: 1px solid rgb(0, 0, 0);
     }
@@ -414,7 +416,7 @@
     /* LABEL ======================================= */
     label {
         color: rgb(0, 0, 0);
-        font-size: 15px;
+        font-size: 18px;
         font-weight: lighter;
         position: absolute;
         pointer-events: none;
@@ -518,76 +520,64 @@
         }
     }
 
-
     .email {
         position: absolute;
-        margin-top: 158px;
-        left: 45;
+        margin-top: 30px;
     }
 
     .password {
         position: absolute;
-        margin-top: 231px;
-        left: 45;
+        margin-top: 100px;
     }
-
-    #box1{
-        position: absolute;
-        margin-top: 180px;
-        left: -110px;
-       }
-
-
 }
 
-#socials {
+#socials{
     width: 100%;
     height: 450px;
     background-color: rgb(0, 0, 0);
-    margin-top: 300;
 
-    .company {
+    .company{
         width: 400px;
         height: 300px;
         position: absolute;
-        left: 30px;
+        left:30px;
 
-        h2 {
+        h2{
             margin-top: 50px;
             font-size: 18px;
             color: white;
         }
 
-        p {
+        p{
             margin-top: 50px;
             font-size: 16px;
             color: white;
         }
     }
 
-    .about {
+    .about{
         width: 200px;
         height: 300px;
         position: absolute;
         left: 440px;
 
-        h2 {
+        h2{
             margin-top: 50px;
             font-size: 18px;
             color: white;
         }
 
-        ul {
+        ul{
             position: absolute;
             left: -35px;
             top: 115px;
 
-            :hover {
+            :hover{
                 color: red;
             }
         }
 
-        li {
+        li{
             list-style: none;
             padding: 5px;
             cursor: pointer;
@@ -596,29 +586,29 @@
 
     }
 
-    .session {
+    .session{
         width: 200px;
         height: 300px;
         position: absolute;
         left: 650px;
 
-        h2 {
+        h2{
             margin-top: 50px;
             font-size: 18px;
             color: white;
         }
 
-        ul {
+        ul{
             position: absolute;
             left: -35px;
             top: 115px;
 
-            :hover {
+            :hover{
                 color: red;
             }
         }
 
-        li {
+        li{
             list-style: none;
             padding: 5px;
             cursor: pointer;
@@ -627,29 +617,29 @@
 
     }
 
-    .categories {
+    .categories{
         width: 200px;
         height: 300px;
         position: absolute;
         left: 865px;
 
-        h2 {
+        h2{
             margin-top: 50px;
             font-size: 18px;
             color: white;
         }
 
-        ul {
+        ul{
             position: absolute;
             left: -35px;
             top: 115px;
 
-            :hover {
+            :hover{
                 color: red;
             }
         }
 
-        li {
+        li{
             list-style: none;
             padding: 5px;
             cursor: pointer;
@@ -657,29 +647,29 @@
         }
     }
 
-    .socials {
+    .socials{
         width: 200px;
         height: 300px;
         position: absolute;
         left: 1060px;
 
-        h2 {
+        h2{
             margin-top: 50px;
             font-size: 18px;
             color: white;
         }
 
-        ul {
+        ul{
             position: absolute;
             left: -35px;
             top: 115px;
 
-            :hover {
+            :hover{
                 color: red;
             }
         }
 
-        li {
+        li{
             list-style: none;
             padding: 5px;
             cursor: pointer;
@@ -687,12 +677,13 @@
         }
     }
 
-    hr {
+    hr{
         margin-top: 350px;
         color: rgb(255, 255, 255);
     }
 
-    .rights {
-        color: white;
+    .rights{
+        color: white;        
     }
 }
+
