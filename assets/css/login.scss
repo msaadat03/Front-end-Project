@@ -4,36 +4,44 @@
     box-sizing: border-box;
 }
 
+
 #top-side {
     width: 100%;
     height: 100px;
-    background-color: rgb(52, 105, 211);
+    background-color: #333F98;
 
-
-    .welcome {
-        height: 44px;
-        width: 178px;
+    .container-fluid {
+        width: 95%;
     }
 
+
+
     .language {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
 
         .button1 {
             border-radius: 0px;
-            background-color: rgb(52, 105, 211);
+            background-color: #333F98;
             border: 0px;
-            position: relative;
-            top: 30px;
+
 
         }
     }
 
     .country {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+
         .button2 {
             border-radius: 0px;
-            background-color: rgb(52, 105, 211);
+            background-color: #333F98;
             border: 0px;
-            position: relative;
-            top: 30px;
+
         }
 
         ul img {
@@ -70,250 +78,295 @@
 
         .inr-flex {
             display: flex;
-        }
-
-    }
-
-    .basket,
-    .heart {
-        cursor: pointer;
-        position: relative;
-        top: 30px;
-        width: 46px;
-        height: 44px;
-        border: 1px solid rgb(226, 135, 7);
-        border-radius: 50%;
-        background-color: rgb(226, 135, 7);
-
-        i {
-            font-size: 20px;
-            color: white;
-            position: absolute;
-            top: 12px;
-            left: 10px;
-        }
-    }
-
-    .profile {
-        margin-top: 30px;
-
-        img {
-            font-size: 26px;
-            width: 25px;
-            height: 25px;
-
-            border-radius: 50%;
-        }
-    }
-
-    .circles {
-        width: 13px;
-        height: 13px;
-        border-radius: 50%;
-        background-color: rgb(215, 82, 6);
-        position: absolute;
-        top: 8px;
-        right: 5px;
-
-        sup {
-            margin-left: 3px;
-            color: white;
-            font-weight: 500;
-        }
-
-    }
-
-    .dropdown-menu {
-        .profile-i {
-            display: flex;
-        }
-
-        .account-i {
-            display: flex;
-        }
-
-        .message-i {
-            display: flex;
-        }
-
-        .logout-i {
-            display: flex;
-        }
-
-        i {
-            position: relative;
-            left: 10px;
-            top: 8px;
-            font-size: 20px;
 
         }
+
+
+
     }
 
 
     .logo {
+        display: flex;
+        justify-content: center;
+
+
         img {
-            padding-top: 30px;
-            padding-left: 150px;
+
+            margin-top: 36px;
         }
+
     }
 
+    .icons {
+        float: right;
+
+        .basket {
+            background-color: orange;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            margin-left: 10px;
+
+            i {
+                margin-left: 10px;
+            }
+        }
+
+        .basket {
+            background-color: orange;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            margin-left: 10px;
+
+            i {
+                margin-left: 10px;
+            }
+        }
+
+        .heart {
+            background-color: orange;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            margin-left: 10px;
+
+            i {
+                margin-left: 10px;
+            }
+        }
+
+
+        .profile {
+
+            margin-top: 23px;
+
+
+            .button3 {
+                background-color: #333F98;
+                border: 0px;
+            }
+
+            img {
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                position: relative;
+                left: 2px;
+            }
+
+            .profile-i {
+                display: flex;
+            }
+
+            .account-i {
+                display: flex;
+            }
+
+            .message-i {
+                display: flex;
+            }
+
+            .logout-i {
+                display: flex;
+            }
+
+            i {
+                position: relative;
+                left: 10px;
+                top: 8px;
+                font-size: 20px;
+
+            }
+        }
+
+
+    }
 
 }
 
-#navbar {
+
+#nav-area {
     background-color: #283593;
 
-    .container {
-        width: 100%;
-        height: 50px;
-        background-color: #283593;
-        margin-left: 40px;
-    }
+    .my-container {
+        width: 95%;
+        margin: auto;
 
-    nav {
-        position: absolute;
-        left: 100px;
-        padding-left: 30px;
-    }
+        nav {
+            display: flex;
+            justify-content: center;
+        }
 
-    .btn {
-        display: flex;
-        margin-top: 3px;
+        .btn-navbar {
+            display: flex;
+            align-items: center;
 
-        li {
-            list-style: none;
-            margin-right: 15px;
+            .admin {
+                background-color: #FF5722;
+                width: 115px;
+                height: 45px;
+                padding-top: 10px;
 
-            &:hover {
-                .home {
-                    height: 150px;
-                    width: 200px;
-
-                    li {
-                        text-align: left;
-                    }
-                }
-
-                .shop {
-                    height: 170px;
-                    width: 200px;
-                }
-
-                .categories {
-                    position: absolute;
-                    z-index: 2;
-                    height: 270px;
-                    width: 800px;
-
-                    li {
-                        text-align: left;
-                    }
-                }
-
-                a {
-                    &::before {
-                        visibility: visible;
-                        transform: scale(1, 1);
-                    }
-                }
-            }
-
-            .home {
-                height: 130px;
-                width: 200px;
-            }
-
-            .shop {
-                height: 170px;
-                width: 200px;
-            }
-
-            .categories {
-                height: 270px;
-                width: 1000px;
-                display: flex;
-                gap: 100px;
-                text-align: left;
-                z-index: 2;
-            }
-
-            .submenu {
-                overflow: hidden;
-                position: absolute;
-                top: 57px;
-                background-color: whitesmoke;
-                height: 0;
-                line-height: 50px;
-                transition: height 0.3s ease-in-out;
-                transition-delay: 0.1s;
-                border-radius: 5px;
-                z-index: 2;
-
-                >li {
-                    display: block;
-                    text-align: left;
-                }
-
-                a {
-                    color: black;
-                    margin-top: 20px;
-                    font-size: 16px;
+                .admin-nav {
+                    color: white;
+                    margin-left: 5px;
                     text-decoration: none;
+                }
 
-                    &:hover {
+
+            }
+
+            li {
+                display: inline-block;
+                transition: all 0.3s ease-in-out;
+                margin-right: 25px;
+
+                .nav-a {
+                    color: white;
+                    display: block;
+                    text-decoration: none;
+                    position: relative;
+                    margin-top: 10px;
+                    padding-bottom: 10px;
+
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 3px;
+                        bottom: -10px;
+                        left: 0px;
+                        background-color: #FF5722;
+                        transition: all 0.2s ease-in-out;
+                        transform: scale(0, 0);
+                        visibility: hidden;
+                    }
+                }
+
+                &:hover {
+                    .submenu {
+                        height: 200px;
+
+                    }
+
+                    .categori {
+                        height: 320px;
+                        width: 800px;
+                    }
+
+                    a {
+
+                        &::before {
+                            visibility: visible;
+                            transform: scale(1, 1);
+                        }
+                    }
+                }
+
+                .submenu {
+                    overflow: hidden;
+                    position: absolute;
+                    margin-top: 10px;
+                    background-color: white;
+                    height: 0;
+                    width: 150px;
+                    line-height: 40px;
+                    transition: height 0.3s ease-in-out;
+                    transition-delay: 0.1s;
+                    text-align: left;
+                    padding-left: 15px;
+                    border-radius: 5px;
+                    z-index: 2;
+
+
+                    a {
+                        color: #000;
+                        font-size: 16px;
                         text-decoration: none;
                     }
                 }
 
-                .product1 {
-                    padding-top: 20px;
+                .categori {
+                    overflow: hidden;
+                    position: absolute;
+                    margin-top: 10px;
+                    background-color: white;
+                    height: 0;
+                    width: 0;
+                    line-height: 30px;
+                    text-align: left;
+                    transition: height 0.3s ease-in-out;
+                    transition-delay: 0.2s;
+                    text-align: left;
+                    margin-left: -200px;
+                    border-radius: 10px;
+                    z-index: 2;
 
-                    h5 {
-                        color: rgb(49, 97, 231);
-                        text-align: left;
+                    table td {
+                        border: none;
+
+                    }
+
+                    table {
+
+                        th {
+                            font-size: 17px;
+                            color: #283593;
+
+                            &:hover {
+                                color: #000;
+                            }
+                        }
                     }
                 }
             }
 
-            .hov {
-                font-size: 18px;
-                color: white;
-                display: block;
-                padding: 0 15px 0 7px;
-                margin: 0 0 10px;
-                text-decoration: none;
-                position: relative;
-
-                &::before {
-                    content: "";
-                    position: absolute;
-                    width: 100%;
-                    height: 5px;
-                    bottom: -20px;
-                    left: 0px;
-                    background-color: orange;
-                    transition: all 0.3s ease-in-out;
-                    transform: scale(0, 0);
-                    visibility: hidden;
-                }
+            h1 {
+                text-align: center;
+                font-family: satisfy;
+                font-weight: 300;
             }
 
+            padding: 0;
+            margin: 0;
         }
+
     }
 
-    .search-icon {
-        z-index: 3;
-        cursor: pointer;
-        position: absolute;
-        margin-top: 20px;
-        right: 120px;
-        font-size: 30px;
-        color: white;
-        border: 1px solid orange;
-        width: 60px;
-        height: 60px;
+
+    .icon {
+        width: 56px;
+        height: 56px;
+        background-color: #FF5722;
         border-radius: 50%;
-        background-color: orange;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        right: 0;
+        margin-top: 20px;
+        position: absolute;
+        z-index: 1;
+
+        i {
+            color: white;
+        }
+
     }
 }
 

@@ -571,14 +571,19 @@
 * #footer-company {
   background-color: black;
   width: 100%;
-  height: 321px;
+  height: 388px;
+}
+* #footer-company .container-fluid .images {
+  margin-top: 15px;
 }
 * #footer-company .container-fluid .texts {
   color: white;
-  font-size: 11px;
-  padding-left: 335px;
+  font-size: 15px;
+  padding-left: 178px;
+  margin-top: 15px;
 }
 * #footer-company .container-fluid hr {
+  margin-top: 50px;
   color: white;
 }
 * #footer-company .container-fluid .about-c {
@@ -590,7 +595,7 @@
 }
 * #footer-company .container-fluid .about-c p {
   color: white;
-  font-size: 11px;
+  font-size: 15px;
   cursor: pointer;
 }
 * #footer-company .container-fluid .about {
@@ -602,12 +607,13 @@
 }
 * #footer-company .container-fluid .about p {
   color: white;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 8px;
+  padding-top: 11px;
   cursor: pointer;
 }
 * #footer-company .container-fluid .about p:hover {
-  color: red;
+  color: rgb(255, 81, 0);
 }
 * #footer-company .container-fluid .session {
   margin-top: 30px;
@@ -618,12 +624,13 @@
 }
 * #footer-company .container-fluid .session p {
   color: white;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 8px;
+  padding-top: 11px;
   cursor: pointer;
 }
 * #footer-company .container-fluid .session p:hover {
-  color: red;
+  color: rgb(255, 81, 0);
 }
 * #footer-company .container-fluid .categories {
   margin-top: 30px;
@@ -634,12 +641,13 @@
 }
 * #footer-company .container-fluid .categories p {
   color: white;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 8px;
+  padding-top: 11px;
   cursor: pointer;
 }
 * #footer-company .container-fluid .categories p:hover {
-  color: red;
+  color: rgb(255, 81, 0);
 }
 * #footer-company .container-fluid .social {
   margin-top: 30px;
@@ -650,10 +658,11 @@
 }
 * #footer-company .container-fluid .social p {
   color: white;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 8px;
+  padding-top: 11px;
   cursor: pointer;
 }
 * #footer-company .container-fluid .social p:hover {
-  color: red;
+  color: rgb(255, 81, 0);
 }/*# sourceMappingURL=accessories.css.map */
