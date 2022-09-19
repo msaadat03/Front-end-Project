@@ -82,7 +82,7 @@
   float: right;
 }
 * #top-side .icons .basket {
-  background-color: orange;
+  background-color: #FF5722;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -96,7 +96,7 @@
   margin-left: 10px;
 }
 * #top-side .icons .basket {
-  background-color: orange;
+  background-color: #FF5722;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -107,10 +107,11 @@
   margin-left: 10px;
 }
 * #top-side .icons .basket i {
+  color: white;
   margin-left: 10px;
 }
 * #top-side .icons .heart {
-  background-color: orange;
+  background-color: #FF5722;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -121,6 +122,7 @@
   margin-left: 10px;
 }
 * #top-side .icons .heart i {
+  color: white;
   margin-left: 10px;
 }
 * #top-side .icons .profile {
@@ -572,97 +574,98 @@
   background-color: black;
   width: 100%;
   height: 388px;
+  margin-top: 210px;
 }
-* #footer-company .container-fluid .images {
+* .container-fluid .images {
   margin-top: 15px;
 }
-* #footer-company .container-fluid .texts {
+* .container-fluid .texts {
   color: white;
   font-size: 15px;
   padding-left: 178px;
   margin-top: 15px;
 }
-* #footer-company .container-fluid hr {
+* .container-fluid hr {
   margin-top: 50px;
   color: white;
 }
-* #footer-company .container-fluid .about-c {
+* .container-fluid .about-c {
   margin-top: 30px;
 }
-* #footer-company .container-fluid .about-c h5 {
+* .container-fluid .about-c h5 {
   color: white;
   font-size: 14px;
 }
-* #footer-company .container-fluid .about-c p {
+* .container-fluid .about-c p {
   color: white;
   font-size: 15px;
   cursor: pointer;
 }
-* #footer-company .container-fluid .about {
+* .container-fluid .about {
   margin-top: 30px;
 }
-* #footer-company .container-fluid .about h5 {
+* .container-fluid .about h5 {
   color: white;
   font-size: 14px;
 }
-* #footer-company .container-fluid .about p {
+* .container-fluid .about p {
   color: white;
   font-size: 15px;
   line-height: 8px;
   padding-top: 11px;
   cursor: pointer;
 }
-* #footer-company .container-fluid .about p:hover {
+* .container-fluid .about p:hover {
   color: rgb(255, 81, 0);
 }
-* #footer-company .container-fluid .session {
+* .container-fluid .session {
   margin-top: 30px;
 }
-* #footer-company .container-fluid .session h5 {
+* .container-fluid .session h5 {
   color: white;
   font-size: 14px;
 }
-* #footer-company .container-fluid .session p {
+* .container-fluid .session p {
   color: white;
   font-size: 15px;
   line-height: 8px;
   padding-top: 11px;
   cursor: pointer;
 }
-* #footer-company .container-fluid .session p:hover {
+* .container-fluid .session p:hover {
   color: rgb(255, 81, 0);
 }
-* #footer-company .container-fluid .categories {
+* .container-fluid .categories {
   margin-top: 30px;
 }
-* #footer-company .container-fluid .categories h5 {
+* .container-fluid .categories h5 {
   color: white;
   font-size: 14px;
 }
-* #footer-company .container-fluid .categories p {
+* .container-fluid .categories p {
   color: white;
   font-size: 15px;
   line-height: 8px;
   padding-top: 11px;
   cursor: pointer;
 }
-* #footer-company .container-fluid .categories p:hover {
+* .container-fluid .categories p:hover {
   color: rgb(255, 81, 0);
 }
-* #footer-company .container-fluid .social {
+* .container-fluid .social {
   margin-top: 30px;
 }
-* #footer-company .container-fluid .social h5 {
+* .container-fluid .social h5 {
   color: white;
   font-size: 14px;
 }
-* #footer-company .container-fluid .social p {
+* .container-fluid .social p {
   color: white;
   font-size: 15px;
   line-height: 8px;
   padding-top: 11px;
   cursor: pointer;
 }
-* #footer-company .container-fluid .social p:hover {
+* .container-fluid .social p:hover {
   color: rgb(255, 81, 0);
 }/*# sourceMappingURL=accessories.css.map */
