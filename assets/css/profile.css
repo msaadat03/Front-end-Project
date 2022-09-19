@@ -1,0 +1,426 @@
+#top-site-area {
+  background-color: #333f99;
+}
+#top-site-area .my-container {
+  width: 97%;
+  height: 120px;
+  background-color: #333f99;
+  margin: auto;
+}
+#top-site-area .dropdown {
+  padding-top: 35px;
+  padding-left: 20px;
+}
+#top-site-area .dropdown .dropdown-menu span {
+  padding-left: 10px;
+}
+#top-site-area .dropdown .dropdown-menu img {
+  width: 30px;
+  height: 30px;
+}
+#top-site-area .dropdown button {
+  background-color: #333f99;
+  padding-top: 8px;
+  width: 95px;
+  height: 45px;
+}
+#top-site-area .logo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#top-site-area .logo img {
+  padding-top: 40px;
+}
+#top-site-area .user {
+  position: relative;
+  display: flex;
+}
+#top-site-area .user .shop-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #ff5722;
+  border-radius: 50%;
+  position: absolute;
+  right: 110px;
+  top: 30px;
+}
+#top-site-area .user .shopping {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 12px;
+  top: 13px;
+}
+#top-site-area .user .heart-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #ff5722;
+  border-radius: 50%;
+  position: absolute;
+  right: 51px;
+  top: 30px;
+}
+#top-site-area .user .heart {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 14px;
+  top: 13px;
+}
+#top-site-area .user .user-img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+}
+#top-site-area .user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  top: 30px;
+  left: 7px;
+}
+
+#navbar {
+  background-color: #283593;
+}
+#navbar .my-container {
+  width: 97%;
+  height: 50px;
+  background-color: #283593;
+  margin: auto;
+}
+#navbar nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#navbar .btn {
+  display: flex;
+  margin-top: 3px;
+}
+#navbar .btn li {
+  list-style: none;
+  margin-right: 15px;
+}
+#navbar .btn li:hover .home {
+  height: 130px;
+  width: 200px;
+}
+#navbar .btn li:hover .home li {
+  text-align: left;
+}
+#navbar .btn li:hover .shop {
+  height: 170px;
+  width: 200px;
+}
+#navbar .btn li:hover .categories {
+  height: 270px;
+  width: 1000px;
+}
+#navbar .btn li:hover .categories li {
+  text-align: left;
+}
+#navbar .btn li:hover a::before {
+  visibility: visible;
+  transform: scale(1, 1);
+}
+#navbar .btn li .home {
+  height: 130px;
+  width: 200px;
+}
+#navbar .btn li .shop {
+  height: 170px;
+  width: 200px;
+}
+#navbar .btn li .categories {
+  position: absolute;
+  right: 0;
+  height: 270px;
+  width: 1000px;
+  display: flex;
+  gap: 150px;
+  text-align: left;
+}
+#navbar .btn li .submenu {
+  overflow: hidden;
+  position: absolute;
+  top: 57px;
+  background-color: whitesmoke;
+  height: 0;
+  line-height: 40px;
+  transition: height 0.3s ease-in-out;
+  transition-delay: 0.1s;
+  border-radius: 5px;
+  z-index: 2;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+}
+#navbar .btn li .submenu > li {
+  display: block;
+  text-align: left;
+}
+#navbar .btn li .submenu a {
+  color: black;
+  margin-top: 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+#navbar .btn li .submenu a:hover {
+  text-decoration: none;
+}
+#navbar .btn li .submenu .product1 {
+  padding-top: 20px;
+}
+#navbar .btn li .submenu .product1 h5 {
+  text-align: left;
+}
+#navbar .btn li .hov {
+  font-size: 18px;
+  color: white;
+  display: block;
+  padding: 0 7px 0 7px;
+  margin: 0 0 10px;
+  text-decoration: none;
+  position: relative;
+}
+#navbar .btn li .hov::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  bottom: -20px;
+  left: 0px;
+  background-color: orange;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0, 0);
+  visibility: hidden;
+}
+#navbar .icon {
+  width: 60px;
+  height: 60px;
+  background-color: #ff5722;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+#navbar .icon i {
+  font-size: 20px;
+  padding-left: 18px;
+  padding-top: 19px;
+  color: white;
+}
+
+#scroll-section {
+  background-color: #283593;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  display: block;
+  transition: 0.5s;
+}
+#scroll-section .my-container {
+  width: 97%;
+  height: 50px;
+  background-color: #283593;
+  margin-left: 23px;
+}
+#scroll-section img {
+  padding-top: 8px;
+}
+#scroll-section .inActive {
+  display: none;
+}
+#scroll-section nav {
+  position: absolute;
+  right: 0;
+}
+#scroll-section .btn {
+  display: flex;
+  margin-top: 3px;
+}
+#scroll-section .btn li {
+  list-style: none;
+  margin-right: 15px;
+}
+#scroll-section .btn li:hover .home {
+  height: 130px;
+  width: 200px;
+}
+#scroll-section .btn li:hover .home li {
+  text-align: left;
+}
+#scroll-section .btn li:hover .shop {
+  height: 170px;
+  width: 200px;
+}
+#scroll-section .btn li:hover .categories {
+  height: 270px;
+  width: 1000px;
+}
+#scroll-section .btn li:hover .categories li {
+  text-align: left;
+}
+#scroll-section .btn li:hover a::before {
+  visibility: visible;
+  transform: scale(1, 1);
+}
+#scroll-section .btn li .home {
+  height: 130px;
+  width: 200px;
+}
+#scroll-section .btn li .shop {
+  height: 170px;
+  width: 200px;
+}
+#scroll-section .btn li .categories {
+  position: absolute;
+  right: 0;
+  height: 270px;
+  width: 1000px;
+  display: flex;
+  gap: 150px;
+  text-align: left;
+}
+#scroll-section .btn li .submenu {
+  overflow: hidden;
+  position: absolute;
+  top: 57px;
+  background-color: whitesmoke;
+  height: 0;
+  line-height: 40px;
+  transition: height 0.3s ease-in-out;
+  transition-delay: 0.1s;
+  border-radius: 5px;
+  z-index: 2;
+}
+#scroll-section .btn li .submenu > li {
+  display: block;
+  text-align: left;
+}
+#scroll-section .btn li .submenu a {
+  color: black;
+  margin-top: 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+#scroll-section .btn li .submenu a:hover {
+  text-decoration: none;
+}
+#scroll-section .btn li .submenu .product1 {
+  padding-top: 20px;
+}
+#scroll-section .btn li .submenu .product1 h5 {
+  text-align: left;
+}
+#scroll-section .btn li .hov {
+  font-size: 18px;
+  color: white;
+  display: block;
+  padding: 0 7px 0 7px;
+  margin: 0 0 10px;
+  text-decoration: none;
+  position: relative;
+}
+#scroll-section .btn li .hov::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  bottom: -20px;
+  left: 0px;
+  background-color: orange;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0, 0);
+  visibility: hidden;
+}
+
+#user-about {
+  padding-top: 80px;
+  padding-bottom: 90px;
+  background-color: whitesmoke;
+}
+#user-about .my-container {
+  width: 97%;
+  margin: auto;
+}
+#user-about .user {
+  display: flex;
+}
+#user-about .user img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+#user-about .user .info {
+  margin-left: 15px;
+}
+#user-about .user-info {
+  width: 350.5px;
+  height: 420.5px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 40px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+}
+#user-about .user-info .icon i {
+  line-height: 50px;
+  font-size: 20px;
+}
+#user-about .user-info .icon span {
+  margin-left: 10px;
+}
+#user-about .empty {
+  width: 100%;
+  height: 420.5px;
+  margin-top: 88px;
+  padding-top: 20px;
+  padding-left: 30px;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+}
+#user-about .empty .info-s {
+  margin-top: 30px;
+  display: flex;
+}
+#user-about .empty .div-2 {
+  padding-left: 50px;
+}
+#user-about .empty button {
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #ff5722;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+#site-about {
+  background-color: black;
+}
+#site-about .my-container {
+  width: 97%;
+  height: 400px;
+  margin: auto;
+  background-color: black;
+}
+#site-about .about p:hover {
+  cursor: pointer;
+  color: orange;
+}
+#site-about h6,
+#site-about p {
+  transition: 0.3s;
+  margin-left: 40px;
+  margin-top: 30px;
+  color: white;
+}
+#site-about span {
+  float: right;
+  color: white;
+}/*# sourceMappingURL=profile.css.map */
