@@ -73,21 +73,7 @@
   float: right;
 }
 #top-side .icons .basket {
-  background-color: orange;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin-top: 30px;
-  margin-left: 10px;
-}
-#top-side .icons .basket i {
-  margin-left: 10px;
-}
-#top-side .icons .basket {
-  background-color: orange;
+  background-color: #FF5722;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -101,7 +87,7 @@
   margin-left: 10px;
 }
 #top-side .icons .heart {
-  background-color: orange;
+  background-color: #FF5722;
   border-radius: 50%;
   width: 40px;
   height: 40px;
